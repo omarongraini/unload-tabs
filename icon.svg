@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" width="96" height="96">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a4a8a"/>
+      <stop offset="100%" stop-color="#1e1e2e"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="88" height="88" rx="20" fill="url(#bg)"/>
+
+  <!-- z — bottom (bold, opaque) -->
+  <text x="28" y="66" font-family="sans-serif" font-size="42" font-weight="bold"
+        fill="#ffffff" opacity="1">z</text>
+
+  <!-- z — middle (fading) -->
+  <text x="44" y="46" font-family="sans-serif" font-size="42" font-weight="bold"
+        fill="#ffffff" opacity="0.55">z</text>
+
+  <!-- z — top (most faded) -->
+  <text x="60" y="28" font-family="sans-serif" font-size="42" font-weight="bold"
+        fill="#ffffff" opacity="0.2">z</text>
+</svg>

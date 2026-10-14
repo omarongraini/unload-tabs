@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
   <style>
     * { box-sizing: border-box; }
     body {
@@ -10,15 +11,23 @@
       background: #1e1e2e;
       color: #e0e0e0;
     }
+.stats {
+  color: #a0a0c0;
+  font-size: 10px;
+  font-weight: 500;
+}
     .header {
-      padding: 12px 14px 8px;
-      font-size: 12px;
-      font-weight: 600;
-      letter-spacing: 0.5px;
-      text-transform: uppercase;
-      color: #888;
-      border-bottom: 1px solid #333;
-    }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 14px 8px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #888;
+  border-bottom: 1px solid #333;
+}
     button {
       display: flex;
       align-items: center;
@@ -51,7 +60,10 @@
   </style>
 </head>
 <body>
-  <div class="header">Tab Unloader</div>
+  <div class="header">
+  Tab Unloader
+  <span class="stats" id="stats">Tabs: 0 · Pinned: 0</span>
+</div>
 
   <button id="unloadAll">
     <svg class="icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
